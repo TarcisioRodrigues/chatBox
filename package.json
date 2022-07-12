@@ -6,6 +6,9 @@
   "dependencies": {
     "sulla": "^2.4.0"
   },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
   "devDependencies": {
     "nodemon": "^2.0.19",
     "sucrase": "^3.23.0"

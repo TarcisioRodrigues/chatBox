@@ -1,5 +1,7 @@
-const execute=()=>{
-  return "Olá sou um bot criado pelo Tarcisio afim de estudos "
+import database from '../database/database'
+const execute=(user,message)=>{
+ database.db[user].stage=0
+ return ['Obrigado pela preferencia']
 }
 
 
